@@ -48,6 +48,8 @@ namespace AspNetCoreAndAngular6Demo
                 }
             });
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }
